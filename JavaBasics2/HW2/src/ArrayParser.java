@@ -1,10 +1,16 @@
 public class ArrayParser {
-    public ArrayParser(Double[][] arrArg){
+    /**
+     * array parser constructor
+     */
+    public ArrayParser(Integer[][] arrArg){
         arr = arrArg;
     }
 
+    /**
+     * finds and returns largest number
+     */
     public String findMaxNum(){
-        Double max = 0.0;
+        Integer max = 0;
         int x=0; 
         int y=0;
         for(int i=0; i<arr.length; i++){
@@ -19,5 +25,5 @@ public class ArrayParser {
         return "Max number " + max + " found at row " + x + " and column " + y +".";
     }
 
-    public Double[][] arr;
+    public Integer[][] arr;
 }
