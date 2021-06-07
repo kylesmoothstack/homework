@@ -64,10 +64,10 @@ public class App {
 
 
         // 3
-        /*words = Arrays.asList("kyle", "smoothstack", "learning", "lambdas");
-        List<String> awords = words.stream().map((s1)-> "a" + s1.charAt(0) +s1.charAt(1)).collect(Collectors.toList());
+        List<String> wordlist = Arrays.asList("kyle", "smoothstack", "learning", "lambdas");
+        List<String> awords = wordlist.stream().map((s1)-> "a" + s1.charAt(0) +s1.charAt(1)).collect(Collectors.toList());
         awords.forEach((word)->System.out.println(word));
-*/
+        
         // part 2: datetime
         /*
          * 1. You would store this type of date in a LocalDateTime
